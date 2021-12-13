@@ -1,7 +1,7 @@
 import 'dart:core';
 
 import 'package:get/get.dart';
-import 'package:shopping_app/models/cart_item.dart';
+import '/models/cart_item.dart';
 
 class CartController extends GetxController {
   Map<int, CartItem> _items = {};

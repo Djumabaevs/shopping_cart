@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:shopping_app/models/cart_item.dart';
-import 'package:shopping_app/models/order.dart';
+import '/models/cart_item.dart';
+import '/models/order.dart';
 
 class OrderController extends GetxController {
   List<Order> _orders = [];

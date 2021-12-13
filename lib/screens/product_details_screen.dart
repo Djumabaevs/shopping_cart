@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shopping_app/controllers/cart_controller.dart';
-import 'package:shopping_app/controllers/product_controller.dart';
+import '/controllers/cart_controller.dart';
+import '/controllers/product_controller.dart';
 
 class ProductDetailsScreen extends StatelessWidget {
   final cartController = Get.put(CartController());

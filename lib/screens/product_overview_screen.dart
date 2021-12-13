@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shopping_app/controllers/cart_controller.dart';
-import 'package:shopping_app/controllers/product_controller.dart';
-import 'package:shopping_app/screens/cart_screen.dart';
-import 'package:shopping_app/widgets/app_drawer.dart';
-import 'package:shopping_app/widgets/badge.dart';
-import 'package:shopping_app/widgets/productgrid.dart';
+import '/controllers/cart_controller.dart';
+import '/controllers/product_controller.dart';
+import '/screens/cart_screen.dart';
+import '/widgets/app_drawer.dart';
+import '/widgets/badge.dart';
+import '/widgets/productgrid.dart';
 
 enum FilterOptions {
   FAVOURITES,

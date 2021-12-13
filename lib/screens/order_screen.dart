@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shopping_app/controllers/order_controller.dart';
-import 'package:shopping_app/widgets/app_drawer.dart';
-import 'package:shopping_app/widgets/order_item.dart';
+import '/controllers/order_controller.dart';
+import '/widgets/app_drawer.dart';
+import '/widgets/order_item.dart';
 
 class OrderScreen extends StatelessWidget {
   var orderController = Get.put(OrderController());

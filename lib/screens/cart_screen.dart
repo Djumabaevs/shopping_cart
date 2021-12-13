@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shopping_app/controllers/cart_controller.dart';
-import 'package:shopping_app/controllers/order_controller.dart';
-import 'package:shopping_app/widgets/cart_items.dart';
+import '/controllers/cart_controller.dart';
+import '/controllers/order_controller.dart';
+import '/widgets/cart_items.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({Key? key}) : super(key: key);
